@@ -77,7 +77,7 @@ const ChartState = () => {
         </>
       )}
     </>
-  );
+  
 };
 
 export default ChartState;
