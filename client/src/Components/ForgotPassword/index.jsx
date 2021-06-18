@@ -63,7 +63,7 @@ const SignIn = () => {
           <Form form={form} layout="vertical">
             <Form.Item
               label="Email"
-              //   required
+              //   require
               //   tooltip="This is a required field"
               name="email"
             >

@@ -33,7 +33,7 @@ export default function AddCategory() {
     }, 0);
   };
   const sendData = () => {
-    // console.log("hu ny thato", fieldData.name);
+    // console.log("h ny thato", fieldData.name);
     if (
       fieldData.name === "" ||
       fieldData.name === null ||

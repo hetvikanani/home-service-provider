@@ -41,7 +41,7 @@ const ChartState = () => {
             autoHide
             style={{ height: "100%", width: "100%" }}
           > */}
-          {console.log(collegeData)}
+          {/* {console.log(collegeData)} */}
           {/* <CustomResponsiveContainer> */}
           <PieChart width={450} height={450}>
             <Pie

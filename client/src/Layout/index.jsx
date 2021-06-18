@@ -56,7 +56,7 @@ const Index = (props) => {
   }, [history.location.pathname.split("/")[2]]);
   useEffect(() => {
     setSearch(getArrayParams(urlSearch));
-    // console.log(urlSearch, search);
+  
   }, [urlSearch]);
   useEffect(() => {
     axios
@@ -71,7 +71,7 @@ const Index = (props) => {
       .get(API.states)
       .then((res) => {
         if (res.data.success) {
-          // console.log("ha moj ", res);
+         
           dispatch({ type: "SET_STATES", payload: res.data.data });
         }
       })
@@ -101,7 +101,7 @@ const Index = (props) => {
 
   return (
     <Layout style={{ minHeight: "100vh" }}>
-      {/* {console.log(data, "hu data chu")} */}
+    
       <Sider collapsible collapsed={collapsed} onCollapse={onCollapse}>
         <div className="logo" style={{ overflow: "hidden" }}>
           <Logo />
