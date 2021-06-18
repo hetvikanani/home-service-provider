@@ -3,6 +3,7 @@ import { Card, Row, Tag } from "antd";
 import tagColor from "../../../config/consts";
 
 const SimilarCollege = ({ data }) => {
+  
   return (
     <Card>
       <Row className="customRow">
