@@ -28,7 +28,7 @@ const Services = () => {
     axios
       .post(API.services, getArrayParams(search))
       .then((res) => {
-        console.log(res);
+        // console.log(res);
         if (res.data.success) {
           console.log(res.data.data);
           setData(res.data.data);

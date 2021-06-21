@@ -39,4 +39,3 @@ const CollegeStudent = ({ data }) => {
 };
 
 export default CollegeStudent;
-//okiee ne hve

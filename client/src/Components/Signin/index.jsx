@@ -154,7 +154,7 @@ const SignIn = (props) => {
               >
                 <div>
                   <Switch></Switch>
-                  <span className="remeberMe">Remember me</span>
+                  <span className="remeberMe">Remember Me</span>
                 </div>
                 <div>
                   <Link
