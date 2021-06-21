@@ -2,7 +2,7 @@ import React from "react";
 import { Card, Row } from "antd";
 
 const Address = ({ data }) => {
-  console.log("address")
+
   return (
     <Card>
       <Row className="customRow">

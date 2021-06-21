@@ -3,7 +3,7 @@ import { Card, Row, Tag } from "antd";
 import tagColor from "../../../config/consts";
 
 const MainDetails = ({ data }) => {
-  console.log("card",this.props)
+
   return (
     <>
       {data ? (
